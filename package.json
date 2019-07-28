@@ -1,0 +1,30 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "Contain solutions for interview problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/jasmine-es6/bin/jasmine.js",
+    "start": "node_modules/http-server/bin/http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsolano0625/algorithms.git"
+  },
+  "keywords": [
+    "algorithms",
+    "interviews"
+  ],
+  "author": "Gerardo Solano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gsolano0625/algorithms/issues"
+  },
+  "homepage": "https://github.com/gsolano0625/algorithms#readme",
+  "devDependencies": {
+    "jasmine-es6": "^0.4.3"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
