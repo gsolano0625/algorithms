@@ -2,7 +2,7 @@
 
 export default class ZeroSumSubarray {
 
-	hasZeroSums (input) {
+  hasZeroSums (input) {
 
     let set = new Set();
 		let sum = 0;
