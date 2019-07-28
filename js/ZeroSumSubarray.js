@@ -2,7 +2,7 @@
 
 export default class ZeroSumSubarray {
 
-	hasZeroSums (input) {
+  hasZeroSums (input) {
 
     let set = new Set();
 		let sum = 0;
@@ -66,7 +66,6 @@ export default class ZeroSumSubarray {
 
 			// if sum is seen before, we have found a sub-array with 0 sum
 			if (setSum.has(sum)) {
-				//return true;
 				count++
 				zeroSumArrays.push(currentArray);
 
